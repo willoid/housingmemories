@@ -40,7 +40,7 @@
       flex-direction: row;
       width: 100%;
       height: 5vh;
-      border: red 1px solid;
+
       justify-content: flex-end;
   }
 
@@ -50,7 +50,7 @@
     width: 90%;
     height: 10vh;
     margin: 0 auto;
-    border: red 1px solid;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -81,7 +81,7 @@ main {
     max-width: 100%;
     height: 40vh;
     margin: auto;
-    border: red solid 1px;
+
 }
 
 #prevBtn, #nextBtn {
@@ -106,14 +106,13 @@ main {
 #prevBtn {
     justify-self: flex-start;
     align-self: flex-start;
-    
-    left: 10px;
+    left: 0;
 }
 
 #nextBtn {
     justify-self: flex-end;
     align-self: flex-end;
-    left: calc(100% - 30px);
+    left: calc(100% - 20px);
 }
 
 #view {
