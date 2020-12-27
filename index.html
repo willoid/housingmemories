@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housing Memories</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav><i class="fas fa-bars"></i></nav>
+      <header>
+        <div class="headerTitle"><span>Housing memories</span></div>
+        <button id="lastProject"><i class="fas fa-arrow-left"></i></button>
+        <button id="nextProject"><i class="fas fa-arrow-right"></i></button>
+      </header>
+      <main>
+        <div class="carousel">
+          <div id="prevBtn" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></div>
+          <div id="view"><img class="pic1 slides fade" src="./assets/pictures/1 Housing memories vue d'exposition.jpg">
+            <img class="pic2 slides fade" src="./assets/pictures/2 Housing memories gaz meter.jpg">
+            <img class="pic3 slides fade" src="./assets/pictures/3 Housing memories vue d'expostion.jpg">
+            <img class="pic4 slides fade" src="./assets/pictures/4 Housing memories vue d'expostion.jpg">
+            <img class="pic5 slides fade" src="./assets/pictures/5 Housing memories vue d'expostion.jpg">
+            <img class="pic6 slides fade" src="./assets/pictures/6 Housing memories concrete wall.jpg">
+            <img class="pic7 slides fade" src="./assets/pictures/7 Housing memories vue d'expostion.jpg">
+            <img class="pic8 slides fade" src="./assets/pictures/8 Housing memories tiled floor.jpg">
+            <img class="pic9 slides fade" src="./assets/pictures/9 Housing memories clothes hanger.jpg">
+            <img class="pic10 slides fade" src="./assets/pictures/10 Housing memories vue d'expostion.jpg">
+            <img class="pic11 slides fade" src="./assets/pictures/11 Housing memories plastik flowers.jpg">
+            <img class="pic12 slides fade" src="./assets/pictures/12 Housing memories vue d'expostion.jpg">
+            <img class="pic13 slides fade" src="./assets/pictures/13 Housing memories doors.jpg">
+            <img class="pic14 slides fade" src="./assets/pictures/14 Housing memories bath.jpg">
+            <img class="pic15 slides fade" src="./assets/pictures/15 Housing memories vue d'expostion.jpg">
+            <img class="pic16 slides fade" src="./assets/pictures/16 Housing memories cellar door.jpg">
+            <img class="pic17 slides fade" src="./assets/pictures/17 Housing memories stairs.jpg"></div>
+          <div id="nextBtn" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></div>
+        </div>
+      </main>
+      <div class="legend"><div class="legendFirst"><div class="legendTitle">Housing memories,</div><span class="legendDate"> 2011</span></div>
+    <div><span class="legendDesc">Vue d'exposition, rue de Paris, Rennes.</span></div>
+    <div><span class="legendDesc">Commisariat : Collectif DIS PARERE</span></div>
+    </div>
+      <div class="desc"><span>&#171; A compter du 1er avril 2011, une nouvelle arrivante, Laurette Le Gall, investit un appartement vacant au 113, rue de Paris à Rennes. L'occupation des lieux reste incertaine et cessera dès qu'un nouveau locataire prendra possession du logement. (...) L'exposition Housing memories propse de contextualiser les travaux de Laurette Le Gall. Elle présente un ensemble d'aquarelles ainsi qu'une installation vidéo qui adoptent l'espace d'exposition de manière à créer une mise en abîme. L'appartement du 113, rue de Paris devient un milieu naturel propice à révéler les &oelig;uvres. Aussi, il s'opère un renversement du shéma habituel des expositions qui, souvent, contrain les &oelig;uvres à être adoptées par un lieu. L'exposition Housing memories se déploie dans une temporalité instable. Cette précarité fait écho aux travaux de Laurette Le gall. Dans ce cadre l'exposition est à envisager comme la recomposition d'une demeure imaginaire dans laquelle le spectateur reconstitue mentalement des espaces génériques de l'habitation. L'espace d'exposition est ainsi rendu instable et inquiétant par la fiction que s'y développe.&#187; </span></div>
+      <div class="descLegend"><span>Extrait du communiquäe de Presse de Housing memories. Textes et comissariat: Collectif DIS/PARERE</span></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
